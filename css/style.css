@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Moderustic:wght@300..800&display=swap');
+
+html {
+    box-sizing: border-box;
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: "Moderustic", sans-serif;
+}
+
+.form {
+    margin: 5px;
+}
+
+.form__fieldset {
+    border: 1px solid rgb(166, 166, 166);
+}
+
+.form__legend {
+    color: white;
+    background-color: rgb(110, 19, 162);
+    border: 0;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 2px;
+    font-weight: 400;
+    font-size: large;
+}
+
+.form__label {
+    display: inline-block;
+    width: 150px;
+    margin: 5px;
+    padding: 10 px;
+}
+
+.form__height, .form__weight {
+    max-width: 400px;
+    width: 100%;
+    border: 1px solid rgb(166, 166, 166);
+    margin: 5px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.form__button {
+    width: 99%;
+    color: white;
+    background-color: rgb(110, 19, 162);
+    border: 0;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 2px;
+}
+
+.form__result {
+    font-weight: 600;
+}
+
+.form__description {
+    font-style: italic;
+}
