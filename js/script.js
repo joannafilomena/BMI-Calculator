@@ -16,6 +16,8 @@ form.addEventListener("submit", (event)=> {
         formDescription.innerText = "Troszkę więcej ciała do kochania."
     } else if (result >= 30 && result < 40) {
         formDescription.innerText = "Ups! - I stopień otyłości."
+    } else if (result = NaN) {
+        formDescription.innerText = "Wypełnij odpowiednio pola."
     } else {
         formDescription.innerText = "Uwaga, to groźne dla zdrowia :( - II stopień otyłości."
     };
