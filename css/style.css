@@ -57,6 +57,14 @@ body {
     border-radius: 2px;
 }
 
+.form__button:hover {
+    background-color: rgb(148, 57, 201);
+}
+
+.form__button:active {
+    background-color: rgb(159, 117, 184);
+}
+
 .form__result {
     font-weight: 600;
 }
